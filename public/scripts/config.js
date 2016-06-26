@@ -67,7 +67,7 @@ require.config({
 
         lodash: '../bower_components/lodash/dist/lodash.min',
         jquery: '../bower_components/jquery/dist/jquery.min',
-
+        datatable: '../bower_components/datatables.net/js/jquery.datatables'
     },
     priority: [
         'jquery',

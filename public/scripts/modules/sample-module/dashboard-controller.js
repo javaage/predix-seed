@@ -1,8 +1,20 @@
-define(['angular', './sample-module'], function (angular, controllers) {
+define(['angular', './sample-module', 'datatable'], function (angular, controllers) {
     'use strict';
 
     // Controller definition
     controllers.controller('DashboardsCtrl', ['$scope', '$log', 'PredixAssetService', 'PredixViewService', function ($scope, $log, PredixAssetService, PredixViewService) {
+
+        $('#example').DataTable( {
+        "ajax": "data/objects.txt",
+        "columns": [
+            { "data": "name" },
+            { "data": "position" },
+            { "data": "office" },
+            { "data": "extn" },
+            { "data": "start_date" },
+            { "data": "salary" }
+        ]
+        });
 
         PredixAssetService.getAssetsByParentId('root').then(function (initialContext) {
 

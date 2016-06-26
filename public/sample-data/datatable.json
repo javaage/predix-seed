@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "UserName": "Tiger",
+      "FullName": "Tiger Nixon",
+      "Email": "Tiger.Nixon@ge.com",
+      "Role": "Administrator"
+    },{
+      "UserName": "Angelica",
+      "FullName": "Angelica Ramos",
+      "Email": "Angelica.Ramos@ge.com",
+      "Role": "Manager"
+    },{
+      "UserName": "Ashton",
+      "FullName": "Ashton Cox",
+      "Email": "Ashton.Cox@ge.com",
+      "Role": "Manager"
+    },{
+      "UserName": "Bradley",
+      "FullName": "Bradley Greer",
+      "Email": "Bradley.Greer@ge.com",
+      "Role": "Manager"
+    },{
+      "UserName": "Brenden",
+      "FullName": "Brenden Wagner",
+      "Email": "Brenden.Wagner@ge.com",
+      "Role": "Manager"
+    }
+  ]
+}
