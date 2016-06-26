@@ -36,13 +36,15 @@ define([
         //Global application object
         window.App = $rootScope.App = {
             version: '1.0',
-            name: 'Predix Seed',
+            name: 'Predictive Maintenance and Management System II(PMMS-II)',
             session: {},
             tabs: [
-                {icon: 'fa-tachometer', state: 'dashboards', label: 'Dashboards'},
-                {icon: 'fa-file-o', state: 'blankpage', label: 'Blank Page', subitems: [
-                    {state: 'blanksubpage', label: 'Blank Sub Page'}
-                ]}
+                {icon: 'fa-tachometer', state: 'dashboards', label: 'WO generation & disposal'},
+                {icon: 'fa-file-o', state: 'blankpage', label: 'FM WO generation'},
+                {icon: 'fa-file-o', state: 'blankpage1', label: 'FM WO disposal'},
+                {icon: 'fa-file-o', state: 'blankpage2', label: '1st level PM WO disposal'},
+                {icon: 'fa-file-o', state: 'blankpage3', label: '2nd level PM WO disposal'},
+                {icon: 'fa-file-o', state: 'blankpage4', label: 'Facility WO generation & disposal'}
             ]
         };
 
